@@ -24,7 +24,7 @@ class ModelChoise(StatesGroup):
     confirm_choise = State()
 
 
-model_choiser = Router()
+model_choiser = Router(name="model_choiser")
 
 
 class ModelsCallbackFactory(CallbackData, prefix="model_choice"):
